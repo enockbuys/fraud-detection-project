@@ -6,18 +6,31 @@ Project Structure
 text
 fraud-detection-project/
 ├── .idea/                          # IDE configuration files
+
 ├── __pycache__/                    # Python cache files
+
 ├── data/                           # Dataset directory
+
 ├── classification_summary.py       # Classification metrics calculator
+
 ├── conditional_gan.py              # Conditional GAN implementation
+
 ├── db_manager.py                   # Database management utilities
+
 ├── fraud_detection.py              # Main fraud detection module
+
 ├── main.py                         # Main execution script
+
 ├── my_decision_tree.py             # Custom decision tree implementation
+
 ├── my_random_forest.py             # Custom random forest implementation
+
 ├── preprocessor.py                 # Data preprocessing utilities
+
 ├── schema.sql                      # Database schema
+
 └── UI.py                           # Graphical user interface
+
 Installation
 1. Ensure you have Python 3.7+ installed
 2. Install required dependencies:
