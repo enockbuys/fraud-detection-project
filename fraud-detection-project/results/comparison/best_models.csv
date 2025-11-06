@@ -1,0 +1,4 @@
+Pipeline,Best_Model,Synthetic_%,Test_F1,Test_ROC_AUC,Test_PR_AUC,Composite_Score,Key_Parameters,Train_Time
+pipeline1,augmented_rf_5,0.05,0.693069306930693,0.9622528432319929,0.6593031415992956,0.7670711347548035,"n_trees:50, max_depth:10, min_samples_split:15, max_features:log2",1169.1s
+pipeline2,augmented_rf_5,0.05,0.7692307692307693,0.9695390123640327,0.7406024020207436,0.8235975687287431,"n_estimators:150, max_depth:10, min_samples_split:10, max_features:log2",47.4s
+pipeline3,augmented_xgb_12,0.12,0.8192771084337349,0.9863421108055205,0.7847928257722885,0.8624997526129813,"n_estimators:150, max_depth:10, learning_rate:0.1, min_child_weight:10",63.4s

@@ -1,0 +1,4 @@
+Rank,Pipeline,Best_Model,Test_F1,ROC_AUC,Synthetic_%,Training_Time
+3,pipeline3,augmented_xgb_12,0.8192771084337349,0.9863421108055205,12.0%,63.4s
+2,pipeline2,augmented_rf_5,0.7692307692307693,0.9695390123640327,5.0%,47.4s
+1,pipeline1,augmented_rf_5,0.693069306930693,0.9622528432319929,5.0%,1169.1s
